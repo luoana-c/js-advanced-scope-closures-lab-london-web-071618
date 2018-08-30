@@ -4,7 +4,7 @@ function produceDrivingRange(blockRange) {
     console.log(blockTwo.substring(0, 2))
     console.log(blockDiff)
     if (blockDiff > blockRange) {
-      return `${blockDiff} blocks out of range`
+      return `${blockDiff - blockRange} blocks out of range`
     }
     else {
       return `within range by ${blockRange - blockDiff}`
