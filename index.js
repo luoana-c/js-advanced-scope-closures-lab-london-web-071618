@@ -1,5 +1,5 @@
 function produceDrivingRange(blockRange) {
   return function (blockOne, blockTwo) {
-    if ()
+    blockOneN = blockOne.slice
   }
 }
